@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 /* HEADER */
 /* Header Navbar */
 .header__content-bar{
@@ -492,7 +496,7 @@
     position: static;
     list-style: none;
     padding: 0 5px;
-    display: none;
+    display: hidden;
     animation: CategoryGrowth ease-in .2s;
 }
 
@@ -617,7 +621,7 @@
     align-items: center;
     border-radius: 2px;
     background-color: #f9f9f9;
-    margin: 14.6px 0 0 29px;
+    margin: 14.6px 0 0 0px;
     padding: 9px 15px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
     justify-content: space-between;
@@ -640,7 +644,7 @@
 
 /* PRODUCT */
 .product{
-    margin: 16px 0 0 29px;
+    margin: 16px 0 0 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
